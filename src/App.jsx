@@ -1,14 +1,13 @@
 import React from 'react'
+import Card from "./components/card" ;
 
 const App = () => {
   return (
-    <div>
-      <h1>
-        Appp me hai !! hehehe
-      </h1>
-      <h2>
-        APp me hai ?!
-      </h2>
+    <div className = "parent" >
+      <Card />
+      <Card />
+      <Card />
+      {Card()}
     </div>
   )
 }

@@ -13,4 +13,36 @@ html, body{
   width: 100%;
 }
 
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.card {
+  width: 24vw;
+  height: 68vh;
+  border: 2px solid whitesmoke ;
+  padding: 20px;
+  margin : 20px;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.card p {
+  margin-top: 20px;
+  margin-bottom: 20px ;
+}
+
+.card img {
+  height: 200px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: fill;
+  border: 2px solid black;
+}
+
+.card button {
+  height : 33px ;
+  width : 88px ;
+  border-radius: 20px;
+}
