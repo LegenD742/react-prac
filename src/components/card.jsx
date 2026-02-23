@@ -1,11 +1,13 @@
 import React from 'react'
+import {ArrowBigDown} from "lucide-react" ;
 
-const card = () => {
+const card = (props) => {
   return (
         <div className = "card">
-            <img src="https://plus.unsplash.com/premium_photo-1709579654090-3f3ca8f8416b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tree" />
+            <img src={props.imgsrc} alt="tree" />
+            <h2>{props.name}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, perspiciatis. Illum esse consequuntur veritatis sint necessitatibus temporibus nesciunt voluptatem quam, aut aliquam tempore impedit quisquam ut blanditiis perspiciatis hic amet placeat suscipit incidunt.</p>
-            <button>Click me !</button>
+            <button>Click me ! <ArrowBigDown size = {16} strokeWidth={2.75} color='#d2dd'/></button>
         </div>
     )
 }
