@@ -1,4 +1,4 @@
-import Card from './components/card.jsx'
+import Card from './components/card/card.jsx'
 
 const App = () => {
 

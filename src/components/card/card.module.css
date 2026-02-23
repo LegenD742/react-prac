@@ -1,0 +1,16 @@
+.card{
+  height: 330px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}

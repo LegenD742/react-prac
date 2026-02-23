@@ -1,8 +1,10 @@
 import { Bookmark } from 'lucide-react'
+import styles from "./card.module.css" ;
+
 const Card = (props) => {
 
     return (
-        <div className="card">
+        <div className={styles.card}>
             <div>
                 <div className="top">
                     <img src={props.brandLogo} alt="nachioooooo" />
